@@ -1,0 +1,7 @@
+spice-villa-restaurant-billing/
+│
+├── app.py
+├── requirements.txt
+├── templates/
+├── static/
+└── other_files/
