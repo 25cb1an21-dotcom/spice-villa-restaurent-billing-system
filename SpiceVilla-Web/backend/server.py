@@ -50,8 +50,8 @@ class APIError(Exception):
 def connect_db():
     load_backend_environment()
     return mysql.connector.connect(
-        host=os.environ.get("MYSQL_HOST", "127.0.0.1"),
-        port=int(os.environ.get("MYSQL_PORT", "3306")),
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT,"10000")),
         user=os.environ.get("MYSQL_USER", "spicevilla"),
         password=os.environ.get("MYSQL_PASSWORD", ""),
         database=os.environ.get("MYSQL_DATABASE", "spicevilla"),
