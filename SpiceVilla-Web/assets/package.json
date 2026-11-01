@@ -1,0 +1,9 @@
+{
+  "name": "spice-villa-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spice Villa restaurant website",
+  "scripts": {
+    "build": "echo \"Static website files are ready to deploy\""
+  }
+}
